@@ -1,0 +1,5 @@
+table <- read.table("canFam3.1_rpmskr_uscs",header=FALSE,sep="\t")
+colnames(table) = c("genoName","genoStart","genoEnd","strand","repName","repClass","repFamily")
+table$repName_unique <- make.names(table$repName, unique=TRUE)
+head(table)
+write.table(table, file="canFam3.1_rpmskr_uscs_unique",sep="\t",col.names=T,row.names=F,quote=F,eol="\n")

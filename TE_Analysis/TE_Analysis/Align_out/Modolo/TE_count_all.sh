@@ -1,0 +1,5 @@
+python3.7 TEtools/TEcount.py -rosette canfam3.1.rosette \
+-column 2 -TE_fasta TE_from_canfam3.1.fa \
+-count final.out -RNA /mnt/Scratch/Canine_transposons/Fastq/1-3d-Control-run1_R1_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/2-3d-TET-run1_R1_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/3-3d-Control-run2_R1_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/4-3d-TET-run2_S6_R1_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/5-3d-Control-run3_S1_R1_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/6-3d-TET-run3_S5_R1_TRIMMED.fastq \
+-RNApair /mnt/Scratch/Canine_transposons/Fastq/1-3d-Control-run1_R2_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/2-3d-TET-run1_R2_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/3-3d-Control-run2_R2_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/4-3d-TET-run2_S6_R2_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/5-3d-Control-run3_S1_R2_TRIMMED.fastq /mnt/Scratch/Canine_transposons/Fastq/6-3d-TET-run3_S5_R2_TRIMMED.fastq \
+-insert 340
